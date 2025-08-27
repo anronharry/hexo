@@ -92,4 +92,10 @@
   "engines": {
     "node": ">=20.19.0"
   }
+{
+  "scripts": {
+    "build": "hexo clean && hexo generate",
+    "vercel-build": "hexo clean && hexo generate"
+ }
+}
 }
